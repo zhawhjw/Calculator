@@ -4,7 +4,7 @@ python:
 
 install:
   - pip install --upgrade pip
-  - python ./setup.py install
+  #- python ./setup.py install
 # command to run tests
 script:
  - python ./unit_test/unit_test_calculator.py
